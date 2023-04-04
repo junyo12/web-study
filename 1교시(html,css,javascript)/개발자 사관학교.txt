@@ -1,0 +1,87 @@
+개발자 사관학교
+
+html = 뼈대
+css = 옷
+api = 설명서
+
+
+
+*질문하는방법*
+구글
+github
+stackoverflow
+mdn (공식문서)
+
+
+Today I Learned  = 오답노트 만들기 (깃허브에 쳐보면 검색이 많이 됨) = 깃허브 아이디로?
+
+
+구글등에서, 영어로 검색 = 키워드 + 언어 = change font color css
+키워드 + 언어 + 사이트 + 최근글들로
+
+
+
+*명령어창* git bash
+
+ls -al = 디렉토리 파일보기
+cd xx
+cd ..
+cd\
+
+mkdir xx = xx폴더 만들기
+rm -rf xx/ = xx폴더 지우기
+touch xx.xx = 확장자가xx인 xx파일 만들기
+
+깃허브 로그인후 페이지를 하나 만든다 (주소도 생김)
+컴퓨터에 있는 어떤 폴더를 그 페이지에 업로드 한다.
+git init
+git remote add origin https://주소.git
+git remote -v  = (연결되었는지 확인하기 =연결된 주소가 뜸)
+
+
+깃허브 = 협업에 최적화
+
+git remote add origin https://github.com/junyo12/web-study.git
+git config --global user.email "crocopwanabe@naver.com"
+git config --global user.name "junyo12"
+
+*업로드*
+git add .
+git commit -m '메시지'
+git push origin master
+
+vscode 에서도 git bash 사용할수 있음
+https://github.com/junyo12/web-study
+
+
+
+*프론트와 백엔드*
+크롬브라우저에서 정해진규칙(api)으로(주소) 데이터를 보내면 백엔드(서버)에서 그걸 html,css,java 형식으로 프론트로(크롬)보여준다.
+프론트 = html,css,js , react,angular,vue(프론트를 더 효율적으로 이용하기위한 프레임워크임)
+백엔드 = java,python,js,ruby (spring, django, nodejs, rails = 각각프로그램언어의 프레임워크들)
+데이터베이스(백엔드 서버의 데이터저장관리) = MySQL , mongoDB, PostgreSQL, MariaDB
+서버컴퓨터 = 이것들을 모두 업로드하는것 (아마존웹서비스, 구글클라우드플랫폼, 네이버클라우드플랫폼) = 배포
+
+*네트워크 통신방식*
+get방식 : api만 요청 -> 로그인화면 그림파일 (데이터조회, 그림파일조회 = 안전하지 않아도 되는 데이터 전달(주소뒤에붙는 파라미터같은것들)
+post방식: api요청+데이터전달 -> 로그인성공 상태값 (데이터전송, 데이터저장 = 민감한데이터전달 (코드단에서 Ajax라는 도구로)
+
+
+
+
+chapter3 . html,css
+
+*구글폰트 사용법
+
+
+*부트스트랩
+웹사이트를 쉽게 만들수 있게 도와주는 html,css,js 프레임워크
+
+*제이쿼리
+자바 프레임워크
+
+무료사진사이트 unplash
+
+
+부트스트랩은 클래스에 모든 스타일이 적용되어 있다
+제이쿼리는 자바스크립트를 간단하게 만들어준다.
